@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		753078431EE592ED00C7D736 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 753078421EE592ED00C7D736 /* main.m */; };
+		753078461EE592ED00C7D736 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 753078451EE592ED00C7D736 /* AppDelegate.m */; };
+		7530784C1EE592ED00C7D736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7530784A1EE592ED00C7D736 /* Main.storyboard */; };
+		7530784E1EE592ED00C7D736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7530784D1EE592ED00C7D736 /* Assets.xcassets */; };
+		753078511EE592ED00C7D736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7530784F1EE592ED00C7D736 /* LaunchScreen.storyboard */; };
+		7530785A1EE5939D00C7D736 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753078591EE5939D00C7D736 /* ImageViewController.m */; };
+		75ED0A591EE7AA5000CA7148 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75ED0A581EE7AA5000CA7148 /* FirstViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7530783E1EE592ED00C7D736 /* SystemImage_Bandana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemImage_Bandana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		753078421EE592ED00C7D736 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		753078441EE592ED00C7D736 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		753078451EE592ED00C7D736 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7530784B1EE592ED00C7D736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7530784D1EE592ED00C7D736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		753078501EE592ED00C7D736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		753078521EE592ED00C7D736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		753078581EE5939D00C7D736 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		753078591EE5939D00C7D736 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		75ED0A571EE7AA5000CA7148 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		75ED0A581EE7AA5000CA7148 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7530783B1EE592ED00C7D736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		753078351EE592ED00C7D736 = {
+			isa = PBXGroup;
+			children = (
+				753078401EE592ED00C7D736 /* SystemImage_Bandana */,
+				7530783F1EE592ED00C7D736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7530783F1EE592ED00C7D736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7530783E1EE592ED00C7D736 /* SystemImage_Bandana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		753078401EE592ED00C7D736 /* SystemImage_Bandana */ = {
+			isa = PBXGroup;
+			children = (
+				753078441EE592ED00C7D736 /* AppDelegate.h */,
+				753078451EE592ED00C7D736 /* AppDelegate.m */,
+				75ED0A571EE7AA5000CA7148 /* FirstViewController.h */,
+				75ED0A581EE7AA5000CA7148 /* FirstViewController.m */,
+				753078581EE5939D00C7D736 /* ImageViewController.h */,
+				753078591EE5939D00C7D736 /* ImageViewController.m */,
+				7530784A1EE592ED00C7D736 /* Main.storyboard */,
+				7530784D1EE592ED00C7D736 /* Assets.xcassets */,
+				7530784F1EE592ED00C7D736 /* LaunchScreen.storyboard */,
+				753078521EE592ED00C7D736 /* Info.plist */,
+				753078411EE592ED00C7D736 /* Supporting Files */,
+			);
+			path = SystemImage_Bandana;
+			sourceTree = "<group>";
+		};
+		753078411EE592ED00C7D736 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				753078421EE592ED00C7D736 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7530783D1EE592ED00C7D736 /* SystemImage_Bandana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753078551EE592ED00C7D736 /* Build configuration list for PBXNativeTarget "SystemImage_Bandana" */;
+			buildPhases = (
+				7530783A1EE592ED00C7D736 /* Sources */,
+				7530783B1EE592ED00C7D736 /* Frameworks */,
+				7530783C1EE592ED00C7D736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemImage_Bandana;
+			productName = SystemImage_Bandana;
+			productReference = 7530783E1EE592ED00C7D736 /* SystemImage_Bandana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		753078361EE592ED00C7D736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Omniroid;
+				TargetAttributes = {
+					7530783D1EE592ED00C7D736 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HBLDU2PPS9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 753078391EE592ED00C7D736 /* Build configuration list for PBXProject "SystemImage_Bandana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 753078351EE592ED00C7D736;
+			productRefGroup = 7530783F1EE592ED00C7D736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7530783D1EE592ED00C7D736 /* SystemImage_Bandana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7530783C1EE592ED00C7D736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753078511EE592ED00C7D736 /* LaunchScreen.storyboard in Resources */,
+				7530784E1EE592ED00C7D736 /* Assets.xcassets in Resources */,
+				7530784C1EE592ED00C7D736 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7530783A1EE592ED00C7D736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753078461EE592ED00C7D736 /* AppDelegate.m in Sources */,
+				7530785A1EE5939D00C7D736 /* ImageViewController.m in Sources */,
+				75ED0A591EE7AA5000CA7148 /* FirstViewController.m in Sources */,
+				753078431EE592ED00C7D736 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7530784A1EE592ED00C7D736 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7530784B1EE592ED00C7D736 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7530784F1EE592ED00C7D736 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753078501EE592ED00C7D736 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		753078531EE592ED00C7D736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		753078541EE592ED00C7D736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		753078561EE592ED00C7D736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HBLDU2PPS9;
+				INFOPLIST_FILE = SystemImage_Bandana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.munu.SystemImage-Bandana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		753078571EE592ED00C7D736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HBLDU2PPS9;
+				INFOPLIST_FILE = SystemImage_Bandana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.munu.SystemImage-Bandana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		753078391EE592ED00C7D736 /* Build configuration list for PBXProject "SystemImage_Bandana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753078531EE592ED00C7D736 /* Debug */,
+				753078541EE592ED00C7D736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753078551EE592ED00C7D736 /* Build configuration list for PBXNativeTarget "SystemImage_Bandana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753078561EE592ED00C7D736 /* Debug */,
+				753078571EE592ED00C7D736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 753078361EE592ED00C7D736 /* Project object */;
+}
